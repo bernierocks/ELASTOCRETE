@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/uikit/2.23.0/css/uikit.min.css">
+    <script src="https://cdn.jsdelivr.net/uikit/2.23.0/js/uikit.min.js"></script>
     <?php wp_head(); ?>
 	</head>
 
