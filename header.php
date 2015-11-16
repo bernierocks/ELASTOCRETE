@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/uikit/2.23.0/css/uikit.min.css">
     <script src="https://cdn.jsdelivr.net/uikit/2.23.0/js/uikit.min.js"></script>
     <?php wp_head(); ?>
+    <link href="<?php echo get_template_directory_uri(); ?>/css/main.css" rel="stylesheet"/>
 	</head>
 
   <body <?php body_class(isset($class) ? $class : ''); ?>>
