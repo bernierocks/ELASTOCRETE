@@ -1,249 +1,570 @@
 /*
+
 Theme Name: Bootstrap 3.1.1 Starter Wordpress theme
+
 Author: 3sparks llc
+
 Author URI: http://3sparks.net/
+
 Description: This is a blank bootstrap 3.1.1 theme for wordpress. Feel free to use this as a starter template for your projects.
+
 Version: 1.0
+
 License: GNU General Public License v2 or later
+
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
 */
+
+
 
 /*Wordpress editor styles start*/
 
+
+
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300,800);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
 
+
+
+
 .entry-content img {
+
 	margin: 0 0 1.5em 0;
-	}
-.alignleft, img.alignleft {
-	margin-right: 1.5em;
-	display: inline;
-	float: left;
-	}
-.alignright, img.alignright {
-	margin-left: 1.5em;
-	display: inline;
-	float: right;
-	}
-.aligncenter, img.aligncenter {
-	margin-right: auto;
-	margin-left: auto;
-	display: block;
-	clear: both;
-	}
-.alignnone, img.alignnone {
-	/* not sure about this one */
-	}
-.wp-caption {
-	margin-bottom: 1.5em;
-	text-align: center;
-	padding-top: 5px;
-	}
-.wp-caption img {
-	border: 0 none;
-	padding: 0;
-	margin: 0;
-	}
-.wp-caption p.wp-caption-text {
-	line-height: 1.5;
-	font-size: 10px;
-	margin: 0;
-	}
-.wp-smiley {
-	margin: 0 !important;
-	max-height: 1em;
-	}
-blockquote.left {
-	margin-right: 20px;
-	text-align: right;
-	margin-left: 0;
-	width: 33%;
-	float: left;
-	}
-blockquote.right {
-	margin-left: 20px;
-	text-align: left;
-	margin-right: 0;
-	width: 33%;
-	float: right;
+
 	}
 
+.alignleft, img.alignleft {
+
+	margin-right: 1.5em;
+
+	display: inline;
+
+	float: left;
+
+	}
+
+.alignright, img.alignright {
+
+	margin-left: 1.5em;
+
+	display: inline;
+
+	float: right;
+
+	}
+
+.aligncenter, img.aligncenter {
+
+	margin-right: auto;
+
+	margin-left: auto;
+
+	display: block;
+
+	clear: both;
+
+	}
+
+.alignnone, img.alignnone {
+
+	/* not sure about this one */
+
+	}
+
+.wp-caption {
+
+	margin-bottom: 1.5em;
+
+	text-align: center;
+
+	padding-top: 5px;
+
+	}
+
+.wp-caption img {
+
+	border: 0 none;
+
+	padding: 0;
+
+	margin: 0;
+
+	}
+
+.wp-caption p.wp-caption-text {
+
+	line-height: 1.5;
+
+	font-size: 10px;
+
+	margin: 0;
+
+	}
+
+.wp-smiley {
+
+	margin: 0 !important;
+
+	max-height: 1em;
+
+	}
+
+blockquote.left {
+
+	margin-right: 20px;
+
+	text-align: right;
+
+	margin-left: 0;
+
+	width: 33%;
+
+	float: left;
+
+	}
+
+blockquote.right {
+
+	margin-left: 20px;
+
+	text-align: left;
+
+	margin-right: 0;
+
+	width: 33%;
+
+	float: right;
+
+	}
+
+
+
 /*-------------------------Wordpress editor styles end ------------------------------*/ 
+
 /*-------------------------Wordpress editor styles end ------------------------------*/ 
+
 /*-------------------------Wordpress editor styles end ------------------------------*/ 
+
 /*-------------------------Wordpress editor styles end ------------------------------*/ 
+
 /*-------------------------Wordpress editor styles end ------------------------------*/ 
+
+
+
+
+
 
 
 
 
 html {
 
+
+
 }
+
+
 
 body {
+
 	height: 2764px;
+
 }
+
+
 
 /*header {
+
 	background: #000 url(images/main_bgg.jpg) no-repeat top center;
+
 	background-size: cover;
+
 	height: 781px;*/
+
 }
+
+
 
 .well {
+
 	border-style: solid;
+
 	border-width: 1px;
+
 	border-color: hsla(108, 95%, 55%, 0.3);
+
 	background-color: rgba(0, 0, 0, 0.7);
+
 	border-radius: 0px;
+
 	margin-top: 36px;
+
 	left: 0px;
+
 	top: 0px;
+
 	width: 902px;
+
 	height: 134px;
+
 	z-index: 2;
+
 	margin-left: 119px;
+
 	padding-left: 0px;
+
 	padding-top: 22px;
+
 	padding-left: 0px;
+
 }
+
+
 
 .well img {
+
 	margin-left: -5px;
+
 	cursor: pointer;
+
 	position: absolute;
+
 }
+
+
 
 .well ul {
+
 	word-spacing: 12px;
+
 	padding-left: 406px;
+
 	padding-right: 0px;
+
 	font-size: 13px;
+
 	padding-right: 0px;
+
 	padding-top: 38px;
-}
-.well ul li {
-	list-style-type: none;
-	color: #EDEDED;
-	display: inline;
-	font-family: 'Open Sans', sans-serif;
+
 }
 
+.well ul li {
+
+	list-style-type: none;
+
+	color: #EDEDED;
+
+	display: inline;
+
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
 /*-------------------------primary edit styles end ------------------------------*/ 
+
 /*-------------------------primary edit styles end ------------------------------*/ 
+
 /*-------------------------primary edit styles end ------------------------------*/ 
+
 /*-------------------------primary edit styles end ------------------------------*/ 
+
 /*-------------------------primary edit styles end ------------------------------*/ 
+
+
+
 
 
 .navbar-default {
+
 	border-style: solid;
+
 	border-width: 1px;
+
 	border-color: hsla(108, 95%, 55%, 0.3);
+
 	background-color: rgba(0, 0, 0, 0.7);
+
 	border-radius: 0px;
+
 	margin-top: 36px;
+
 	left: 0px;
+
 	top: 0px;
+
 	width: 902px;
+
 	height: 134px;
+
 	z-index: 2;
+
 	margin-left: 22px;
+
 	padding-top: 22px;
+
 	padding-left: 0px;
+
 }
+
+
 
 .navbar-default .navbar-nav>.active>a {
+
 	color: #fff;
+
 	font-family: 'Open Sans', sans-serif;
+
 	background-color: rgba(123, 190, 79, .47);
+
 	margin-right: 10px;
+
 	padding-right: 6px;
+
 	margin-left: -9px;
+
 	padding-left: 8px;
-}
-.navbar-default .navbar-nav>.active>a:hover {
-	color: #fff;
-	font-family: 'Open Sans', sans-serif;
-	background-color: rgba(123, 190, 79, .47);
-	margin-right: 10px;
-	padding-right: 6px;
-	margin-left: -9px;
-	padding-left: 8px;
+
 }
 
-.navbar-default .navbar-nav>li>a {
-	list-style-type: none;
+.navbar-default .navbar-nav>.active>a:hover {
+
 	color: #fff;
+
 	font-family: 'Open Sans', sans-serif;
-	border-top-right-radius: 5px;
-	border-top-left-radius: 5px;
-	font-size: 11px;
-	padding-top: 2px;
-	padding-bottom: 2px;
-	margin-right: 10px;
-	padding-right: 6px;
-	margin-left: -9px;
-	padding-left: 8px;
-}
-.navbar-default .navbar-nav>li>a:hover {
-	list-style-type: none;
+
 	background-color: rgba(123, 190, 79, .47);
-	color: #fff;
+
 	margin-right: 10px;
+
 	padding-right: 6px;
+
 	margin-left: -9px;
+
 	padding-left: 8px;
+
 }
+
+
+
+.navbar-default .navbar-nav>li>a {
+
+	list-style-type: none;
+
+	color: #fff;
+
+	font-family: 'Open Sans', sans-serif;
+
+	border-top-right-radius: 5px;
+
+	border-top-left-radius: 5px;
+
+	font-size: 11px;
+
+	padding-top: 2px;
+
+	padding-bottom: 2px;
+
+	margin-right: 10px;
+
+	padding-right: 6px;
+
+	margin-left: -9px;
+
+	padding-left: 8px;
+
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+
+	list-style-type: none;
+
+	background-color: rgba(123, 190, 79, .47);
+
+	color: #fff;
+
+	margin-right: 10px;
+
+	padding-right: 6px;
+
+	margin-left: -9px;
+
+	padding-left: 8px;
+
+}
+
+
+
+
 
 
 
 .navbar-brand {
+
 	margin-left: -20px;
+
   	margin-top: -15px;
+
 }
+
+
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+
 	margin-top: 22px;
+
 	letter-spacing: 1px;
+
  }
 
+
+
 .navbar-collapse {
+
 	padding-right: 14px;
+
 }
 
+
+
 #menu-main-navigation {
+
 	padding-top: 13px;
+
 }
+
+
+
 
 
 .tp-bgimg .defaultimg {
+
 	position: absolute;
+
 }
+
+
 
 .forcefullwidth_wrapper_tp_banner {
+
 	position: absolute !important;
+
 	z-index: 0 !important;
+
 }
+
+
 
 .header-wrapper {
+
 	padding-bottom: 500px;
+
 }
 
+
+
 #menu-main-navigation {
+
 	padding-top: 13px;
+
 	border-bottom: 1px solid rgba(116, 192, 67, 0.749);
+
 	padding-left: 8px;
+
 	margin-right: -7px;
+
  }
+
+
+
+/* ----------- worko-starto ------------ */
+/* ----------- worko-starto ------------ */
+/* ----------- worko-starto ------------ */
+/* ----------- worko-starto ------------ */
+/* ----------- worko-starto ------------ */
 
 #menu-item-33 {
 	margin-right: -14px;
 	padding-right: 5px;
+
 }
+
+#main-container {
+    background-color: transparent;
+}
+
+body {
+	background-color: rgba(0, 0, 0, 0.05);
+}
+
+#menuimage {
+	margin-top: 155px;
+}
+
+.ourstory {
+	margin-left: 115px;
+}
+
+.ourproducts {
+	margin-left: -101px;
+	margin-right: -101px;
+}
+
+.wpb_single_image {
+    border-bottom-width: 5px !important;
+}
+
+#main2 {
+	margin-top: 378px;
+	z-index: -999;
+}
+
+.whatpeoplearesaying p {
+	color: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 75px;
+	text-align: center;
+	line-height: 90px;
+	margin-top: 65px;
+	letter-spacing: 7px;
+}
+
+.takealook {
+	color: #87cc5a;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 75px;
+	text-align: center;
+	margin-top: 15px;
+	letter-spacing: 7px;
+}
+
+.galleryimage {
+	border-top-color: rgba(0, 0, 0, 0.01) !important;
+	border-bottom-color: rgba(0, 0, 0, 0.01) !important;
+	margin-bottom: 0px !important;
+}
+
+#galleryrow {
+
+}
+
+/* note: annoying word navigation start */
+/* note: annoying word navigation start */
+.post-navigation {
+	margin-top: 102px;
+	position: absolute;
+	color: #fff;
+}
+/* note: annoying word navigation end */
+/* note: annoying word navigation end */
 
 .save {
 
