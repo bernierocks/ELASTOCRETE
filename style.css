@@ -673,3 +673,8 @@ div.vc-row-translate-wrapper {
 	position: absolute;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ note: annoying word navigation end */
+
+
+.page-id-12 .masthead {
+min-height: 692px;
+}
