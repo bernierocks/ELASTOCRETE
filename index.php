@@ -1,12 +1,11 @@
 <?php get_header(); ?>
 
-<?php if ( is_home() ) { ?>
-
-<?php } else { ?>
+<?php if(is_front_page() ) { ?>
 <div class="revslides" data-uk-parallax="{bg: '-200'}">
 	<?php putRevSlider("main_1", "homepage") ?>
 </div>
 <?php } ?>
+
 
 
 <div id="main-container" class="container">
