@@ -231,10 +231,10 @@ body {
 	z-index: 0 !important;
 }
 
-.header-wrapper {
+/*.header-wrapper {
 	padding-bottom: 500px;
 }
-
+*/
 #menu-main-navigation {
 	padding-top: 13px;
 	border-bottom: 1px solid rgba(116, 192, 67, 0.749);
