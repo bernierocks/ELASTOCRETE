@@ -1,498 +1,252 @@
-/*
 
 Theme Name: Bootstrap 3.1.1 Starter Wordpress theme
-
 Author: 3sparks llc
-
 Author URI: http://3sparks.net/
-
 Description: This is a blank bootstrap 3.1.1 theme for wordpress. Feel free to use this as a starter template for your projects.
-
 Version: 1.0
-
 License: GNU General Public License v2 or later
-
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
 */
-
-
 
 /*Wordpress editor styles start*/
 
-
-
+/* ==================================== font installed ==== */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300,800);
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
-
 @import url(https://fonts.googleapis.com/css?family=Roboto);
 
 
 
-
-
 .entry-content img {
-
 	margin: 0 0 1.5em 0;
-
-	}
+}
 
 .alignleft, img.alignleft {
-
 	margin-right: 1.5em;
-
 	display: inline;
-
 	float: left;
-
-	}
+}
 
 .alignright, img.alignright {
-
 	margin-left: 1.5em;
-
 	display: inline;
-
 	float: right;
-
-	}
+}
 
 .aligncenter, img.aligncenter {
-
 	margin-right: auto;
-
 	margin-left: auto;
-
 	display: block;
-
 	clear: both;
-
-	}
+}
 
 .alignnone, img.alignnone {
-
 	/* not sure about this one */
-
-	}
+}
 
 .wp-caption {
-
 	margin-bottom: 1.5em;
-
 	text-align: center;
-
 	padding-top: 5px;
-
-	}
+}
 
 .wp-caption img {
-
 	border: 0 none;
-
 	padding: 0;
-
 	margin: 0;
-
-	}
+}
 
 .wp-caption p.wp-caption-text {
-
 	line-height: 1.5;
-
 	font-size: 10px;
-
 	margin: 0;
-
-	}
+}
 
 .wp-smiley {
-
 	margin: 0 !important;
-
 	max-height: 1em;
-
-	}
+}
 
 blockquote.left {
-
 	margin-right: 20px;
-
 	text-align: right;
-
 	margin-left: 0;
-
 	width: 33%;
-
 	float: left;
-
-	}
+}
 
 blockquote.right {
-
 	margin-left: 20px;
-
 	text-align: left;
-
 	margin-right: 0;
-
 	width: 33%;
-
 	float: right;
+}
 
-	}
-
-
-
-/*-------------------------Wordpress editor styles end ------------------------------*/ 
-
-/*-------------------------Wordpress editor styles end ------------------------------*/ 
-
-/*-------------------------Wordpress editor styles end ------------------------------*/ 
-
-/*-------------------------Wordpress editor styles end ------------------------------*/ 
-
-/*-------------------------Wordpress editor styles end ------------------------------*/ 
-
-
-
-
-
-
-
-
+/* ==================================== BootstrapWordpress default end ====== */ 
 
 html {
 
-
-
 }
-
-
 
 body {
-
-	height: 2764px;
-
+	height: 100%;
+	height: auto;
 }
-
-
 
 /*header {
-
 	background: #000 url(images/main_bgg.jpg) no-repeat top center;
-
 	background-size: cover;
-
 	height: 781px;*/
-
 }
-
-
 
 .well {
-
 	border-style: solid;
-
 	border-width: 1px;
-
 	border-color: hsla(108, 95%, 55%, 0.3);
-
 	background-color: rgba(0, 0, 0, 0.7);
-
 	border-radius: 0px;
-
 	margin-top: 36px;
-
 	left: 0px;
-
 	top: 0px;
-
 	width: 902px;
-
 	height: 134px;
-
 	z-index: 2;
-
 	margin-left: 119px;
-
 	padding-left: 0px;
-
 	padding-top: 22px;
-
 	padding-left: 0px;
-
 }
-
-
 
 .well img {
-
 	margin-left: -5px;
-
 	cursor: pointer;
-
 	position: absolute;
-
 }
 
-
-
 .well ul {
-
 	word-spacing: 12px;
-
 	padding-left: 406px;
-
 	padding-right: 0px;
-
 	font-size: 13px;
-
 	padding-right: 0px;
-
 	padding-top: 38px;
-
 }
 
 .well ul li {
-
 	list-style-type: none;
-
 	color: #EDEDED;
-
 	display: inline;
-
 	font-family: 'Open Sans', sans-serif;
-
 }
 
-
-
-/*-------------------------primary edit styles end ------------------------------*/ 
-
-/*-------------------------primary edit styles end ------------------------------*/ 
-
-/*-------------------------primary edit styles end ------------------------------*/ 
-
-/*-------------------------primary edit styles end ------------------------------*/ 
-
-/*-------------------------primary edit styles end ------------------------------*/ 
-
-
-
-
+/* ==================================== primary edit styles end ===== */ 
 
 .navbar-default {
-
 	border-style: solid;
-
 	border-width: 1px;
-
 	border-color: hsla(108, 95%, 55%, 0.3);
-
 	background-color: rgba(0, 0, 0, 0.7);
-
 	border-radius: 0px;
-
 	margin-top: 36px;
-
 	left: 0px;
-
 	top: 0px;
-
 	width: 902px;
-
 	height: 134px;
-
 	z-index: 2;
-
 	margin-left: 22px;
-
 	padding-top: 22px;
-
 	padding-left: 0px;
-
 }
 
-
-
 .navbar-default .navbar-nav>.active>a {
-
 	color: #fff;
-
 	font-family: 'Open Sans', sans-serif;
-
 	background-color: rgba(123, 190, 79, .47);
-
 	margin-right: 10px;
-
 	padding-right: 6px;
-
 	margin-left: -9px;
-
 	padding-left: 8px;
-
 }
 
 .navbar-default .navbar-nav>.active>a:hover {
-
 	color: #fff;
-
 	font-family: 'Open Sans', sans-serif;
-
 	background-color: rgba(123, 190, 79, .47);
-
 	margin-right: 10px;
-
 	padding-right: 6px;
-
 	margin-left: -9px;
-
 	padding-left: 8px;
-
 }
 
-
-
 .navbar-default .navbar-nav>li>a {
-
 	list-style-type: none;
-
 	color: #fff;
-
 	font-family: 'Open Sans', sans-serif;
-
 	border-top-right-radius: 5px;
-
 	border-top-left-radius: 5px;
-
 	font-size: 11px;
-
 	padding-top: 2px;
-
 	padding-bottom: 2px;
-
 	margin-right: 10px;
-
 	padding-right: 6px;
-
 	margin-left: -9px;
-
 	padding-left: 8px;
-
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-
 	list-style-type: none;
-
 	background-color: rgba(123, 190, 79, .47);
-
 	color: #fff;
-
 	margin-right: 10px;
-
 	padding-right: 6px;
-
 	margin-left: -9px;
-
 	padding-left: 8px;
-
 }
-
-
-
-
-
-
 
 .navbar-brand {
-
 	margin-left: -20px;
-
   	margin-top: -15px;
-
 }
-
-
 
 .navbar-default .navbar-collapse, .navbar-default .navbar-form {
-
 	margin-top: 22px;
-
 	letter-spacing: 1px;
-
  }
-
-
 
 .navbar-collapse {
-
 	padding-right: 14px;
-
 }
-
-
 
 #menu-main-navigation {
-
 	padding-top: 13px;
-
 }
-
-
-
-
 
 .tp-bgimg .defaultimg {
-
 	position: absolute;
-
 }
-
-
 
 .forcefullwidth_wrapper_tp_banner {
-
 	position: absolute !important;
-
 	z-index: 0 !important;
-
 }
-
-
 
 .header-wrapper {
-
 	padding-bottom: 500px;
-
 }
 
-
-
 #menu-main-navigation {
-
 	padding-top: 13px;
-
 	border-bottom: 1px solid rgba(116, 192, 67, 0.749);
-
 	padding-left: 8px;
-
 	margin-right: -7px;
-
  }
 
-
-
-/* ----------- worko-starto ------------ */
-/* ----------- worko-starto ------------ */
-/* ----------- worko-starto ------------ */
-/* ----------- worko-starto ------------ */
-/* ----------- worko-starto ------------ */
+/* ==================================== worko-starto ===== */
 
 #menu-item-33 {
-	margin-right: -14px;
+	margin-right: -14px
 	padding-right: 5px;
-
 }
 
 #main-container {
@@ -500,11 +254,7 @@ body {
 }
 
 body {
-	background-color: rgba(0, 0, 0, 0.05);
-}
-
-#menuimage {
-	margin-top: 155px;
+	background-color: rgba(0, 0, 0, 0.01);
 }
 
 .ourstory {
@@ -515,6 +265,8 @@ body {
 	margin-left: -101px;
 	margin-right: -101px;
 }
+
+
 
 .wpb_single_image {
     border-bottom-width: 5px !important;
@@ -531,9 +283,10 @@ body {
 	font-weight: 300;
 	font-size: 75px;
 	text-align: center;
-	line-height: 90px;
-	margin-top: 65px;
+	line-height: 82px;
+	margin-top: 50px;
 	letter-spacing: 7px;
+	margin-bottom: 10px;
 }
 
 .takealook {
@@ -542,30 +295,379 @@ body {
 	font-weight: 300;
 	font-size: 75px;
 	text-align: center;
-	margin-top: 15px;
+	margin-top: 65px;
 	letter-spacing: 7px;
+	margin-bottom: 5px !important;
+}
+
+.galleryimage-1, .galleryimage-2, .galleryimage-3, .galleryimage-4 {
+	margin-bottom: 5px !important;
+	padding-bottom: 5px !important;
+}
+.galleryimage-5, .galleryimage-6, .galleryimage-7, .galleryimage-8 {
+	margin-top: 0px !important;
+	padding-top: 0px !important;
+}
+
+.wpb_column > .wpb_wrapper > *:last-child {
+    margin-bottom: 0px;
+ }
+
+ .vc-row-translate-wrapper {
+	padding-bottom: 125px !important;
+ }
+
+.more {
+	    margin-top: 25px;
+}
+.more button.vc_btn3.vc_btn3-size-lg {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	color: #000;
+	background-color: #87CC5A;
+	border-bottom-color: #34700d;
+	width: 175px;
+	height: 54px;
+	border-bottom-width: 6px;
+	font-weight: 400;
+	font-size: 25px;
+	padding-bottom: 45px;
+	padding-top: 10px;
+	margin-top: 35px;
+}
+.more button.vc_btn3.vc_btn3-size-lg:hover {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #A2E278;
+	border-bottom-color: #58A328;
+	color: #000;
 }
 
 .galleryimage {
-	border-top-color: rgba(0, 0, 0, 0.01) !important;
-	border-bottom-color: rgba(0, 0, 0, 0.01) !important;
-	margin-bottom: 0px !important;
 }
 
 #galleryrow {
-
 }
 
-/* note: annoying word navigation start */
-/* note: annoying word navigation start */
+#paralaxrow {
+	padding-bottom: 110px !important;
+}
+
+div.vc-row-translate-wrapper {
+    padding-bottom: 95px !important;
+}
+.wpb_row {
+    margin-bottom: 0px !important;
+}
+
+.upb_row_bg {
+	height: 100% !important;
+	top: 0px !important;
+	bottom: 0px !important;
+}
+
+.footerpart p {
+	color: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 300;
+	font-size: 75px;
+	text-align: center;
+	line-height: 82px;
+	margin-top: 30px;
+	letter-spacing: 7px;
+	margin-bottom: 30px;
+}
+#footer {
+	background-image: url("images/footermap.jpg");
+}
+
+.footer-siteinfo h2 {
+	color: #87CC5A;
+	font-family: 'Open Sans';
+	margin-top: 82px;
+	font-size: 32px;
+	letter-spacing: 4px;
+}
+
+.footer-siteinfo address {
+	color: #fff;
+	font-size: 15px;
+	font-family: 'Source Sans Pro';
+	letter-spacing: 1px;
+	margin-top: -8px;
+	margin-left: 3px;
+	line-height: 19px;
+ }
+
+#menuimage.vc_row.wpb_row.vc_row-fluid.menuimage.vc_custom_1447760144444.ult-vc-hide-row {
+	margin-top: 99px !important;
+	padding-top: 44px !important;
+	padding-bottom: 48px !important;
+}
+
+.footer-navigation #menu-main-navigation-1.nav.navbar-nav.navbar-right {
+	padding-top: 0px;
+	border-top: 1px solid rgba(116, 192, 67, 0.749);
+	padding-left: 9px;
+	margin-right: -15px;
+}
+
+.vc_row.wpb_row.vc_row-fluid.getintouching.ult-vc-hide-row {
+	margin-top: -31px;
+	padding-bottom: 170px;
+}
+
+.facebook-footer-icon {
+    background: url("images/facebook-icon.png")  no-repeat center;
+    background-color: green;
+}
+
+
+/* ==================================== STARTO ===== */
+
+#menuimage {	
+	margin-top: 46px;
+	padding-top: 40px;
+	margin-bottom: -29px !important;
+	padding-bottom: 77px;
+}
+
+.wpb_column.vc_column_container.vc_col-sm-2 {
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+}
+
+.row1-gallery-images,
+.row2-gallery-images {
+	margin-bottom: 10px;
+	margin-left: 115px;
+}
+
+.row1-gallery-images img{
+    width: auto;
+    margin-right: 8px;
+}
+.row2-gallery-images img{
+    width: auto;
+    margin-right: 8px;
+}
+
+.top-menu-image img {
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom-color: #000;
+    border-bottom-width: 5px;
+    border-style: solid;
+    border-top-color: #fff;
+    border-top-width: 6px;
+    margin-top: -9px;
+    margin-bottom: -9px;
+}
+
+
+.get-in-touch-icon {
+	font-size: 100px;
+	margin-top: -10px;
+	margin-left: -15px;
+}
+.get-in-touch-in-facebook {
+}
+.icon-facebook {
+	color: #fff;
+}
+.icon-youtube {
+	color: #fff;
+}
+.icon-google-plus {
+	color: #fff;
+}
+.icon-circle {
+	color: #fff;
+}
+.round-button-circle.icon-youtube {
+	font-size: 25px;
+	margin-top: 3px;
+	margin-top: -70px;
+	margin-right: 60px;
+	margin-left: 79px;
+}
+
+.footer {
+	background-color: #000;
+	background-image: url('images/trianglepattern(dark).jpg');
+	margin-top: -2px;
+}
+.footer-info-with-map {
+	background-image: url('images/footermap.jpg');
+	background-repeat: no-repeat;
+}
+.footer-imagemenu img {
+	margin-right: -3px;
+}
+.footer-info-with-map.footer-siteinfo {
+	margin-left: 112px;
+}
+
+.navbar-default.footer-navigation {
+	border-style: solid;
+	border-width: 1px;
+	border-color: transparent;
+	background-color: transparent;
+	border-radius: 0px;
+	margin-top: -9px;
+	left: 0px;
+	top: 0px;
+	width: 532px;
+	height: 50px;
+	z-index: 2;
+	margin-left: -111px;
+	padding-top: 0px;
+}
+.navbar-default.footer-navigation .navbar-nav>li>a {
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+.header-wrapper.footer-navigation {
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+/* ==================================== button start ====== */
+
+.round-button-fa , .round-button-yo , .round-button-go {
+	width:25%;
+}
+
+.round-button-circle-fa {
+	font-size: 25px;
+	width: 30%;
+	height: 0;
+	padding-bottom: 30%;
+	border-radius: 50%;
+	overflow: hidden;
+	background: #87CC5A;
+	box-shadow: 0 0 3px gray;
+}
+.round-button-circle-fa img {
+	margin-top: -6px;
+}
+.round-button-circle-yo {
+	font-size: 25px;
+	width: 30%;
+	height: 0;
+	padding-bottom: 30%;
+	border-radius: 50%;
+	overflow: hidden;
+	background: #87CC5A;
+	box-shadow: 0 0 3px gray;
+	margin-top: -57px;
+	margin-left: 65px;
+}
+.round-button-circle-yo img {
+	margin-top: -6px;
+}
+.round-button-circle-go {
+	font-size: 25px;
+	width: 30%;
+	height: 0;
+	padding-bottom: 30%;
+	border-radius: 50%;
+	overflow: hidden;
+	background: #87CC5A;
+	box-shadow: 0 0 3px gray;
+	margin-top: -56px;
+	margin-left: 130px;
+}
+.round-button-circle-go img {
+	margin-top: -7px;
+}
+.round-button-circle-fa:hover , .round-button-circle-yo:hover , .round-button-circle-go:hover{
+	background:#A0E374;
+}
+.round-button-fa a {
+	display:block;
+	float:left;
+	width:100%;
+	padding-top:50%;
+	padding-bottom:50%;
+	line-height:1em;
+	margin-top:-0.5em;
+	text-align:center;
+	color:#e2eaf3;
+	font-family:Verdana;
+	font-size:1.2em;
+	font-weight:bold;
+	text-decoration:none;
+}
+.round-button-yo a {
+	display:block;
+	float:left;
+	width:100%;
+	padding-top:50%;
+	padding-bottom:50%;
+	line-height:1em;
+	margin-top:-0.5em;
+	text-align:center;
+	color:#e2eaf3;
+	font-family:Verdana;
+	font-size:1.2em;
+	font-weight:bold;
+	text-decoration:none;
+}
+.round-button-go a {
+	display:block;
+	float:left;
+	width:100%;
+	padding-top:50%;
+	padding-bottom:50%;
+	line-height:1em;
+	margin-top:-0.5em;
+	text-align:center;
+	color:#e2eaf3;
+	font-family:Verdana;
+	font-size:1.2em;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.site-copyright-footer {
+	background-image: url('http://kriptop.com/elastocrete-devt/wp-content/uploads/2015/11/footer-background-bar.jpg');
+	margin-left: 111px;
+	width: 903px;
+	background-repeat: repeat-x;
+}
+.site-copyright-footer h5 {
+	font-family: 'Source Sans Pro', Open Sans;
+	color: #9B9A9A;
+	font-size: 12px;
+}
+.site-copyright-footer p {
+	font-family: 'Source Sans Pro', Open Sans;
+	color: #9B9A9A;
+	font-size: 12px;
+	margin-top: -26px;
+	margin-left: 125px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ button code-end ~~~~~~~ */
+
+.revslides {
+	padding-bottom: 742px;
+	margin-top: -690px;
+	/*background-image: url('http://kriptop.com/elastocrete-devt/wp-content/uploads/revslider/main_1/main_bg.jpg');*/
+}
+
+/* ==================================== note: annoying word navigation start */
 .post-navigation {
 	margin-top: 102px;
 	position: absolute;
 	color: #fff;
+	display: none;
 }
-/* note: annoying word navigation end */
-/* note: annoying word navigation end */
 
-.save {
-	trycomment: go;
+.page.type-page.status-publish.hentry h2 {
+	display: none;
+	position: absolute;
 }
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ note: annoying word navigation end */

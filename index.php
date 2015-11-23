@@ -1,11 +1,18 @@
 <?php get_header(); ?>
+
+<div class="revslides" data-uk-parallax="{bg: '-200'}">
+	<?php putRevSlider("main_1", "homepage") ?>
+</div>
+
+<div id="main-container" class="container">
 <div class="row">
+
 	<div class="col-md-12">
 
 		<?php if(have_posts()) : ?>
 		   <?php while(have_posts()) : the_post(); ?>
 			<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-				<?php the_title('<h2 class="bc-page-title">','</h2>'); ?>
+				<?php the_title('<h2>','</h2>'); ?>
 		 		<?php the_content(); ?>
 			</div>
 			<?php
@@ -47,16 +54,16 @@
 		<?php endif; ?>
 	</div>
 
-<!-- 	<div class="col-md-4">
+	<div class="col-md-4">
 
 		<?php
-		 // if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Sidebar')) : //  Sidebar name
+		 if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Sidebar')) : //  Sidebar name
 		?>
 		<?php
-		     // endif;
+		     endif;
 		?>
 	</div>
- -->
+
 </div>
 
 

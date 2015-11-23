@@ -165,6 +165,7 @@ function bootstrap_theme_enqueue_scripts() {
 	// Bootstrap
 	wp_enqueue_script( 'bootstrap-script', $template_url . '/js/bootstrap.min.js', array( 'jquery' ), null, true );
 
+	// Bootstrap
 	wp_enqueue_style( 'bootstrap-style', $template_url . '/css/bootstrap.min.css' );
 
 	//Main Style
