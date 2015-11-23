@@ -12,9 +12,8 @@
 
 <body <?php body_class(isset($class) ? $class : ''); ?>>
 <header>
-      <div class="container">
-              <div class="row">
-                      <div class="col col-md-10 col-md-offset-1">
+
+                      
                           <div class="header-wrapper">
                               <nav class="navbar navbar-default" role="navigation">
                                   <!-- Brand and toggle get grouped for better mobile display -->
@@ -36,7 +35,5 @@
                                   </div><!-- /.navbar-collapse -->
                                 </nav>
                             </div><!-- /.header-wrapper -->
-                      </div>
-              </div>
-      </div>
+
 </header>
