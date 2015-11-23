@@ -675,6 +675,7 @@ div.vc-row-translate-wrapper {
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ note: annoying word navigation end */
 
 
-.page-id-12 .masthead {
+.masthead {
 min-height: 692px;
+margin-top: -194px;
 }
