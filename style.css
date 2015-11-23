@@ -530,6 +530,9 @@ div.vc-row-translate-wrapper {
 	border-top-right-radius: 0px;
     border-top-left-radius: 0px;
 }
+.navbar.navbar-default.footer-navigation {
+	min-height: 58px;
+}
 .header-wrapper.footer-navigation {
 	padding-bottom: 0px;
 	padding-left: 0px;
