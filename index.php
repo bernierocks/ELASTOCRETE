@@ -4,11 +4,9 @@
 <div class="revslides" data-uk-parallax="{bg: '-200'}">
 	<?php putRevSlider("main_1", "homepage") ?>
 </div>
+
 <?php } else { ?>
 
-<?php } ?>
-
-</div>
 <?php } ?>
 
 
