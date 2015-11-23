@@ -522,7 +522,7 @@ div.vc-row-translate-wrapper {
 	z-index: 2;
 	margin-left: -111px;
 	padding-top: 0px;
-	margin-bottom: -32px;
+	margin-bottom: 5px;
 }
 .navbar-default.footer-navigation .navbar-nav>li>a {
 	border-bottom-right-radius: 5px;
