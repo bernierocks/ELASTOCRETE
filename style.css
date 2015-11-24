@@ -663,6 +663,18 @@ div.vc-row-translate-wrapper {
 	margin: 20px;
 	border: #555 solid 5px;
 }
+.col-about-phrase {
+	font-family: 'Open Sans', Source Sans Pro;
+}
+.col-about-phrase h1 {
+	font-size: 50px;
+}
+.col-about-phrase p {
+	font-size: 16px;
+	line-height: 35px;
+	letter-spacing: 0.5px;
+	word-spacing: 1px;
+}
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ button code-end ~~~~~~~ */
 
