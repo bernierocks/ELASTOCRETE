@@ -752,7 +752,10 @@ div.vc-row-translate-wrapper {
 	color: #74c043;
 }
 .tools-text-leftsectn {
-	margin-top: 10vh;
+	margin-top: 5vh;
+}
+.tools-content {
+	margin-bottom: 15vh;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ button code-end ~~~~~~~ */
 
