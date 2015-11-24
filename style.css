@@ -723,12 +723,13 @@ div.vc-row-translate-wrapper {
 	color: #74c043;
 }
 
-.headtools , .tools-text-leftsectnstock , .tools-text-rightsectnsydtem {
+.headtools , .tools-text-leftsectn , .tools-text-leftsectnstock , .tools-text-rightsectnsydtem {
 	font-family: 'Open Sans', Source Sans Pro;
 }
 .headtools {
 	text-align: center;
 	color: #74c043;
+	font-weight: 600;
 }
 .tools-text-leftsectnstock h1 {
 	text-align: center;
@@ -737,6 +738,9 @@ div.vc-row-translate-wrapper {
 .tools-text-rightsectnsydtem h1 {
 	text-align: center;
 	color: #74c043;
+}
+.tools-text-leftsectn {
+	margin-top: 10vh;
 }
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ button code-end ~~~~~~~ */
 
