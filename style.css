@@ -696,6 +696,9 @@ div.vc-row-translate-wrapper {
 .Luxury-row-list , .Luxury-list {
 	font-family: 'Open Sans', Source Sans Pro;
 }
+.Luxury-row-list h1 {
+	color: #74c043;
+}
 .Luxury-list li {
 	list-style-type: none;
 	font-size: 20px;
