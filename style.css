@@ -655,9 +655,13 @@ div.vc-row-translate-wrapper {
 	margin-left: 125px;
 }
 
+.col-about-images {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
 .about-images img {
-	margin: 30px;
-	border: #6EAA47 solid 5px;
+	margin: 20px;
+	border: #555 solid 5px;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ button code-end ~~~~~~~ */
