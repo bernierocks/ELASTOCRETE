@@ -681,11 +681,16 @@ div.vc-row-translate-wrapper {
 }
 
 .aboutpage-youtubevids-section {
-	margin-bottom: 30px;
+	padding-bottom: 60px;
+	margin-top: 40px;
 }
 .aboutpage-youtubevids-section h3 {
 	font-family: 'Open Sans', Source Sans Pro;
 	text-align: center;
+	font-size: 21px;
+	font-weight: 600;
+	margin-bottom: -10px;
+
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ button code-end ~~~~~~~ */
