@@ -507,6 +507,9 @@ div.vc-row-translate-wrapper {
 .footer-info-with-map.footer-siteinfo {
 	margin-left: 112px;
 }
+.mainfooter {
+	margin-left: 28px;
+}
 
 .navbar-default.footer-navigation {
 	border-style: solid;
@@ -638,9 +641,11 @@ div.vc-row-translate-wrapper {
 
 .site-copyright-footer {
 	background-image: url('http://kriptop.com/elastocrete-devt/wp-content/uploads/2015/11/footer-background-bar.jpg');
-	margin-left: 111px;
-	width: 903px;
+	margin-left: 139px;
 	background-repeat: repeat-x;
+	width: 100%;
+	max-width: 903px;
+}
 }
 .site-copyright-footer h5 {
 	font-family: 'Source Sans Pro', Open Sans;
