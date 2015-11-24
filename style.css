@@ -703,7 +703,10 @@ div.vc-row-translate-wrapper {
 	list-style-type: none;
 	font-size: 20px;
 }
-.centerlist-products {
+.Luxury-list.centerlist-products {
+	margin-left: -20vh;
+}
+.Luxury-list.rightlist-products {
 	
 }
 
