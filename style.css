@@ -680,6 +680,19 @@ div.vc-row-translate-wrapper {
 	word-spacing: 1px;
 }
 
+.video-row-about {
+
+}
+.video-row-about h3 {
+
+}
+.video-row-about.about-youtube-vids-1 {
+	background-image: url(https://youtu.be/cWAs7fJEIS8?list=UUz23L6RK0efkSq-iRT3bAnw);
+}
+.video-row-about.about-youtube-vids-2 {
+	background-image: url(https://youtu.be/cWAs7fJEIS8?list=UUz23L6RK0efkSq-iRT3bAnw);
+}
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ button code-end ~~~~~~~ */
 
 .revslides {
