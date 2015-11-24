@@ -722,6 +722,22 @@ div.vc-row-translate-wrapper {
 	font-family: 'Open Sans', Source Sans Pro;
 	color: #74c043;
 }
+
+.headtools , .tools-text-leftsectnstock , .tools-text-rightsectnsydtem {
+	font-family: 'Open Sans', Source Sans Pro;
+}
+.headtools {
+	text-align: center;
+	color: #74c043;
+}
+.tools-text-leftsectnstock h1 {
+	text-align: center;
+	color: #74c043;
+}
+.tools-text-rightsectnsydtem h1 {
+	text-align: center;
+	color: #74c043;
+}
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ button code-end ~~~~~~~ */
 
 .revslides {
