@@ -711,10 +711,11 @@ div.vc-row-translate-wrapper {
 	margin-left: -10vh;
 }
 .Luxury-list.rightlist-products {
-	margin-left: -10vh;
+	margin-left: -15vh;
 }
 .Luxury-list.data-section {
-	margin-top: 5vh
+	margin-top: 5vh;
+	margin-bottom: 10vh;
 }
 .Luxury-row-list2 h1 {
 	margin-top: 10vh;
