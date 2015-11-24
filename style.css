@@ -655,6 +655,11 @@ div.vc-row-translate-wrapper {
 	margin-left: 125px;
 }
 
+.about-images img {
+	margin: 30px;
+	border: #6EAA47 solid 5px;
+}
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ button code-end ~~~~~~~ */
 
 .revslides {
