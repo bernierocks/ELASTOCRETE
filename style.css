@@ -680,17 +680,12 @@ div.vc-row-translate-wrapper {
 	word-spacing: 1px;
 }
 
-.video-row-about {
-
+.aboutpage-youtubevids-section {
+	margin-bottom: 30px;
 }
 .video-row-about h3 {
-
-}
-.video-row-about.about-youtube-vids-1 {
-	background-image: url(https://youtu.be/cWAs7fJEIS8?list=UUz23L6RK0efkSq-iRT3bAnw);
-}
-.video-row-about.about-youtube-vids-2 {
-	background-image: url(https://youtu.be/cWAs7fJEIS8?list=UUz23L6RK0efkSq-iRT3bAnw);
+	font-family: 'Open Sans', Source Sans Pro;
+	text-align: center;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ button code-end ~~~~~~~ */
