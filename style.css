@@ -863,6 +863,12 @@ div.vc-row-translate-wrapper {
             width /**/: 99px;
             height /**/: 66px;
         }
+
+	/*manual twiks*/
+	.gallery-slider {
+		margin-top: 20vh 20vh;
+	}
+
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ gallery slider style End ~~~~~~~ */
 
 
