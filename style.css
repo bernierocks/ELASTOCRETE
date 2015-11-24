@@ -726,14 +726,26 @@ div.vc-row-translate-wrapper {
 .headtools , .tools-text-leftsectn , .tools-text-leftsectnstock , .tools-text-rightsectnsydtem {
 	font-family: 'Open Sans', Source Sans Pro;
 }
-.headtools {
+.tools-text-leftsectn ul , .tools-text-leftsectnstock ul , .tools-text-rightsectnsydtem ul {
+	font-size: 16px;
+	line-height: 33px;
+}
+
+.headtools h1 {
 	text-align: center;
 	color: #74c043;
 	font-weight: 600;
+	margin-top: 10vh;
+	font-size: 50px;
+	margin-bottom: 10vh;
 }
 .tools-text-leftsectnstock h1 {
 	text-align: center;
 	color: #74c043;
+	margin-bottom: 5vh;
+}
+.tools-text-leftsectnstock {
+	margin-bottom: 15vh;
 }
 .tools-text-rightsectnsydtem h1 {
 	text-align: center;
